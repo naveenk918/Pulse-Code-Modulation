@@ -99,7 +99,7 @@ axs[4].set_xlabel("Time / Bit Position")
 
 plt.show()
 ```
-# DWaveform
+# Waveform
 <img width="1167" height="1698" alt="ex 2" src="https://github.com/user-attachments/assets/5167e63a-abd8-447c-a34b-4bc47936ec58" />
 
 # Results
