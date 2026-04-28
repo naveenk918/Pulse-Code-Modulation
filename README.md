@@ -1,4 +1,4 @@
-# Pulse-Code-Modulation
+# Pulse Code Modulation
 # Aim
 Write a simple Python program for the modulation and demodulation of PCM, and DM.
 # Tools required
@@ -7,6 +7,12 @@ Write a simple Python program for the modulation and demodulation of PCM, and DM
 - NumPy Library
 - Matplotlib Library
 - Computer / Laptop
+# Theory 
+Pulse Code Modulation (PCM) is a widely used digital modulation technique that converts analog signals into digital form for reliable transmission and storage. In this method, a continuous-time analog signal is first converted into a discrete-time signal through sampling. According to the Nyquist Theorem, the sampling frequency must be at least twice the maximum frequency component of the signal to avoid aliasing and ensure accurate reconstruction at the receiver. This sampled signal still has continuous amplitude values, which are then processed further.
+
+The next step is quantization, where each sampled amplitude is approximated to the nearest value from a finite set of levels. This process introduces a small difference between the actual and approximated values, known as quantization error or noise. Quantization can be uniform or non-uniform, depending on how the levels are distributed. After quantization, encoding is performed, where each quantized level is assigned a unique binary code. This results in a stream of binary data that represents the original analog signal and can be easily transmitted through digital communication systems.
+
+PCM systems also include processes at the receiver side, where the digital signal is decoded, reconstructed, and filtered to recover the original analog signal. The quality of the reconstructed signal depends on factors such as sampling rate, number of quantization levels, and channel conditions. PCM offers several advantages, including high noise immunity, ease of multiplexing, and compatibility with modern digital systems. However, it requires a larger bandwidth and involves more complex circuitry compared to analog communication methods. Due to its reliability and efficiency, PCM is extensively used in applications such as digital telephony, audio recording, compact discs, and satellite communication systems.
 #  Program
 ```python
 import numpy as np
