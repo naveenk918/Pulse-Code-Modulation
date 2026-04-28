@@ -1,6 +1,6 @@
-# Pulse Code Modulation
+# Experimental Verification of PCM and Demodulation
 # Aim
-To generate a Pulse Code Modulation (PCM) signal by sampling, quantizing, encoding, and decoding an analog sinusoidal input using Python.
+To perform the experimental verification of PCM and demodulation by sampling, quantizing, encoding, and decoding an analog sinusoidal signal using Python.
 # Tools required
 - Python
 - Google Colab
@@ -103,4 +103,4 @@ plt.show()
 <img width="1167" height="1698" alt="ex 2" src="https://github.com/user-attachments/assets/5167e63a-abd8-447c-a34b-4bc47936ec58" />
 
 # Results
-The analog input signal was successfully converted into PCM binary pulses and reconstructed at the receiver side with quantization levels corresponding to 3-bit encoding.
+The PCM waveform was successfully generated and the demodulated output signal was reconstructed, verifying the Pulse Code Modulation process.
